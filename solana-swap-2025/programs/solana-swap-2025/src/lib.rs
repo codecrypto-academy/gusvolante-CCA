@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_spl::token::{Mint, Token, TokenAccount, transfer, Transfer};
 
-declare_id!("C3RC2picGe1SRyYNny7bVWCtVc5qizqd7XBMErby2J6V");
+declare_id!("Daz6mK51SsYuZ5sbrP2w8GzHWksv8yXmqyfz3ipZ5Kcr");
 
 #[program]
 pub mod solana_swap_2025 {
