@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+  background: #0f172a !important;
+  color: #e2e8f0 !important;
+}
+
+/* Wallet adapter button override */
+.wallet-adapter-button {
+  background: #6366f1 !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+}
+.wallet-adapter-button:hover {
+  background: #818cf8 !important;
+}
